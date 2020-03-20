@@ -179,3 +179,9 @@ form{
   padding: 2%;
   position:relative;
 }
+
+/* 404 */
+img[alt="404"]{
+  display:flex;
+  justify-content: center;
+}
