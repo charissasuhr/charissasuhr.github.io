@@ -1,20 +1,14 @@
-@font-face {
-  font-family: "Museo";
-  src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
-}
 
 body {
-  font-family: "Museo", sans-serif;
-  background: url("https://github.com/charissasuhr/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
+  font-family: 'Didact Gothic', sans-serif;
+  background: url("/img/white.jpeg");
 }
 
 .wrapper {
   width: 90%;
   margin: 0 auto;
 }
-
-
-/*Section 1**********grid************/
+/* Portfolio */
 #student-feature {
   position: relative;
   display: grid;
@@ -26,7 +20,6 @@ body {
   padding:2%;
 }
 
-
 .designer {
   display: flex;
   align-items: flex-end;
@@ -34,7 +27,7 @@ body {
 #designer{
   display: flex;
   justify-content: flex-end;
-  background-color:#474833;
+  background-color:#F0D194;
   opacity:80%;
   width: 100%;
   height: 5vh;
@@ -63,8 +56,6 @@ color:grey;
 text-decoration-line: none;
 letter-spacing: 1px;
 }
-
-
 
 #position-one {
   background: url("/img/AR.jpg");
@@ -102,8 +93,18 @@ a:hover {
   border: 5px solid white;
 }
 
+h3{
+  font-family: 'Didact Gothic', sans-serif;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: 'Didact Gothic', sans-serif;
+  color: grey;
+}
+
+/* Pic/Name */
 #bio {
-  background: white;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 1;
@@ -111,13 +112,14 @@ a:hover {
 }
 .bio {
   display: flex;
-  justify-content: flex-end;
+  justify-content: left;
   flex-direction: row;
   align-items: center;
-  text-align: right;
+  text-align: left;
   padding: 2%;
   position:relative;
 }
+
 
 img[alt="profpic"] {
   grid-column-start: 5;
@@ -128,17 +130,17 @@ img[alt="profpic"] {
   height: 300px;
   padding: 2%;
 }
+
 #name {
-  color: grey;
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  display: flex;
+  justify-content: right;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  color: #474833
 }
 
-
+/* Biography */
 #project-detail {
-  background: white;
   grid-column-start: 4;
   grid-column-end: 5;
   grid-row-start: 2;
@@ -150,23 +152,17 @@ img[alt="profpic"] {
   text-align: justified;
 }
 
-.card {
-  background:url("https://static1.squarespace.com/static/5a0b043729f187e10887ab3b/5a9e7b9e8165f5c069e7319f/5a9e6408e22c88ba79bfacb8/1520421372061/?format=750w");
-  width: 200px;
-  height: 30vh;
-  margin: 10px;
+p{
+  text-align: justify;
+  font-size: 12pt;
 }
 
-h4 {
-  color: grey;
-}
-
+/* Contact Form */
 h2:hover {
   color:#F09999;
+  font-family: 'PT Sans', sans-serif;
+
 }
-
-
-/*Section 4-footer**********/
 
 footer{
   padding:2%;
