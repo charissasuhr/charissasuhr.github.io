@@ -1,222 +1,200 @@
+@font-face {
+  font-family: "Museo";
+  src: url(../assets/fonts/museo/museo-300-webfont.woff) format("woff");
+}
 
-body{
-    background: pink;
-}body {
-    background-color: #152836;
-    color: #eee;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif
-  }
-  
-  .small {
-    font-size: 11px;
-    color: #999;
-    display: block;
-    margin-top: -10px
-  }
-  
-  .cont {
-    text-align: center;
-  }
-  
-  .page-head {
-    padding: 60px 0;
-    text-align: center;
-  }
-  
-  .page-head .lead {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.4;
-    margin-bottom: 50px;
-    margin-top: 0;
-  }
-  
-  .btn {
-    -moz-user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.42857;
-    margin-bottom: 0;
-    padding: 6px 12px;
-    text-align: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    text-decoration: none;
-  }
-  
-  .btn-lg {
-    border-radius: 2px;
-    font-size: 18px;
-    line-height: 1.33333;
-    padding: 10px 16px;
-  }
-  
-  .btn-primary:hover {
-    background-color: #fff;
-    color: #152836;
-  }
-  
-  .btn-primary {
-    background-color: #152836;
-    border-color: #0e1a24;
-    color: #ffffff;
-  }
-  
-  .btn-primary {
-    border-color: #eeeeee;
-    color: #eeeeee;
-    transition: color 0.1s ease 0s, background-color 0.15s ease 0s;
-  }
-  
-  .page-head h1 {
-    font-size: 42px;
-    margin: 0 0 20px;
-    color: #FFF;
-    position: relative;
-    display: inline-block;
-  }
-  
-  .page-head h1 .version {
-    bottom: 0;
-    color: #ddd;
-    font-size: 11px;
-    font-style: italic;
-    position: absolute;
-    width: 58px;
-    right: -58px;
-  }
-  
-  .demo-gallery > ul {
-    margin-bottom: 0;
-    padding-left: 15px;
-  }
-  
-  .demo-gallery > ul > li {
-    margin-bottom: 15px;
-    width: 180px;
-    display: inline-block;
-    margin-right: 15px;
-    list-style: outside none none;
-  }
-  
-  .demo-gallery > ul > li a {
-    border: 3px solid #FFF;
-    border-radius: 3px;
-    display: block;
-    overflow: hidden;
-    position: relative;
-    float: left;
-  }
-  
-  .demo-gallery > ul > li a > img {
-    -webkit-transition: -webkit-transform 0.15s ease 0s;
-    -moz-transition: -moz-transform 0.15s ease 0s;
-    -o-transition: -o-transform 0.15s ease 0s;
-    transition: transform 0.15s ease 0s;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-    height: 100%;
-    width: 100%;
-  }
-  
-  .demo-gallery > ul > li a:hover > img {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-  
-  .demo-gallery > ul > li a:hover .demo-gallery-poster > img {
-    opacity: 1;
-  }
-  
-  .demo-gallery > ul > li a .demo-gallery-poster {
-    background-color: rgba(0, 0, 0, 0.1);
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    -webkit-transition: background-color 0.15s ease 0s;
-    -o-transition: background-color 0.15s ease 0s;
-    transition: background-color 0.15s ease 0s;
-  }
-  
-  .demo-gallery > ul > li a .demo-gallery-poster > img {
-    left: 50%;
-    margin-left: -10px;
-    margin-top: -10px;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transition: opacity 0.3s ease 0s;
-    -o-transition: opacity 0.3s ease 0s;
-    transition: opacity 0.3s ease 0s;
-  }
-  
-  .demo-gallery > ul > li a:hover .demo-gallery-poster {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .demo-gallery .justified-gallery > a > img {
-    -webkit-transition: -webkit-transform 0.15s ease 0s;
-    -moz-transition: -moz-transform 0.15s ease 0s;
-    -o-transition: -o-transform 0.15s ease 0s;
-    transition: transform 0.15s ease 0s;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-    height: 100%;
-    width: 100%;
-  }
-  
-  .demo-gallery .justified-gallery > a:hover > img {
-    -webkit-transform: scale3d(1.1, 1.1, 1.1);
-    transform: scale3d(1.1, 1.1, 1.1);
-  }
-  
-  .demo-gallery .justified-gallery > a:hover .demo-gallery-poster > img {
-    opacity: 1;
-  }
-  
-  .demo-gallery .justified-gallery > a .demo-gallery-poster {
-    background-color: rgba(0, 0, 0, 0.1);
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    -webkit-transition: background-color 0.15s ease 0s;
-    -o-transition: background-color 0.15s ease 0s;
-    transition: background-color 0.15s ease 0s;
-  }
-  
-  .demo-gallery .justified-gallery > a .demo-gallery-poster > img {
-    left: 50%;
-    margin-left: -10px;
-    margin-top: -10px;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    -webkit-transition: opacity 0.3s ease 0s;
-    -o-transition: opacity 0.3s ease 0s;
-    transition: opacity 0.3s ease 0s;
-  }
-  
-  .demo-gallery .justified-gallery > a:hover .demo-gallery-poster {
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .demo-gallery .video .demo-gallery-poster img {
-    height: 48px;
-    margin-left: -24px;
-    margin-top: -24px;
-    opacity: 0.8;
-    width: 48px;
-  }
-  
-  .demo-gallery.dark > ul > li a {
-    border: 3px solid #04070a;
-  }
+body {
+  font-family: "Museo", sans-serif;
+  background: url("https://github.com/charissasuhr/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true");
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/*Section 1**********grid************/
+#student-feature {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  width: 100%;
+  height: 100vh;
+  padding:2%;
+}
+
+
+.designer {
+  display: flex;
+  align-items: flex-end;
+}
+#designer {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #696969;
+  color: white;
+  width: 100%;
+  height: 5vh;
+  font-family: "Nunito", sans-serif;
+  padding:1%;
+}
+
+#focus {
+  background: url("https://cdn.shopify.com/s/files/1/0013/8998/5890/products/Promise_MixedonCanvas_40x40_MAIN_700x700.jpg?v=1548869735");
+  background-size: cover;
+  background-position: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  border: 5px solid white;
+  display: flex;
+}
+
+#position-one {
+  background: url("http://cdn.shopify.com/s/files/1/1862/5545/products/Flirting_No1_sm_1024x1024.jpg?v=1490033386");
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid white;
+}
+
+#position-two {
+  background: url("https://imgc.allpostersimages.com/img/posters/julia-contacessi-escaping-light-i_u-L-Q1BJYGY0.jpg?src=gp&w=275&h=250");
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid white;
+}
+
+#position-three {
+  background: url("https://s-media-cache-ak0.pinimg.com/originals/bb/07/d0/bb07d0eae6ef29329d7871df37f32eab.jpg");
+  background-position: center;
+  background-size: cover;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  border: 5px solid white;
+}
+
+#bio {
+  background: white;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.bio {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+  padding: 2%;
+  position:relative;
+}
+
+img[alt="profpic"] {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  width: 175px;
+  height: 300px;
+  padding: 2%;
+}
+#nemail {
+  color: grey;
+}
+
+
+#project-detail {
+  background: white;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#pdetail {
+  color: grey;
+  padding: 3%;
+  text-align: justified;
+}
+
+.card {
+  background:url("https://static1.squarespace.com/static/5a0b043729f187e10887ab3b/5a9e7b9e8165f5c069e7319f/5a9e6408e22c88ba79bfacb8/1520421372061/?format=750w");
+  width: 200px;
+  height: 30vh;
+  margin: 10px;
+}
+
+h4 {
+  color: grey;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+#ban {
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+.bird {
+  width: 30px;
+  height: 30px;
+}
+
+.twitbanner {
+  background-color: grey;
+  width: cover;
+  height: 60px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitbanner div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-size: 8pt;
+}
+/*Section 4-footer**********/
+#bottom {
+  display: flex;
+  align-items: center;
+}
+
+footer{
+  background-color: rgb(237, 184, 195);
+	background-blend-mode: multiply;
+  padding:2%;
+}
+
+form{
+  border-style: solid;
+  border-width: medium;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+  padding: 2%;
+  position:relative;
+}
